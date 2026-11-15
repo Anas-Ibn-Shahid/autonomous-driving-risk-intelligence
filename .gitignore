@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local datasets and generated outputs (never commit raw/private data)
+data/raw/*
+data/processed/*
+data/anaid/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated model artifacts
+models/*.joblib
+models/*.pkl
+models/evaluation_metrics.json
+!models/.gitkeep
+
+# Generated figures
+reports/figures/*
+!reports/figures/.gitkeep
