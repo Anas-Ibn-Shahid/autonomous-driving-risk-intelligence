@@ -61,16 +61,6 @@ autonomous-driving-risk-intelligence/
 └── README.md
 ```
 
-## Upload this project to GitHub
-
-This repository is prepared for the public GitHub repository configured in `publish_to_github.bat`:
-
-`https://github.com/Anas-Ibn-Shahid/autonomous-driving-risk-intelligence`
-
-On Windows, install [Git for Windows](https://git-scm.com/download/win), extract the project ZIP, then double-click `publish_to_github.bat` from the extracted project folder. The script initializes Git, stages the project files, creates a commit, and pushes the `main` branch. On the first push, Git may open a browser window for GitHub sign-in. See [`UPLOAD_TO_GITHUB.md`](UPLOAD_TO_GITHUB.md) for step-by-step instructions and troubleshooting.
-
-Do not add raw/private datasets, passwords, access tokens, or generated model files to the repository. The `.gitignore` excludes the configured local data and model-output folders.
-
 ## Quick start — Windows / Anaconda
 
 Open **Anaconda Prompt** in the project folder and run:
